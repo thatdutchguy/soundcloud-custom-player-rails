@@ -1,0 +1,14 @@
+PATH
+  remote: .
+  specs:
+    soundcloud-custom-player-rails (1.0.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  soundcloud-custom-player-rails!
