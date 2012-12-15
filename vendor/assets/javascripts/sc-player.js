@@ -337,7 +337,7 @@
         // update the track duration in the progress bar
         $('.sc-duration', $player).html(timecode(track.duration));
         // put the waveform into the progress bar
-        $('.sc-waveform-container', $player).html('<img src="' + track.waveform_url +'" />');
+        $('.sc-waveform-container', $player)
 
         $player.trigger('onPlayerTrackSwitch.scPlayer', [track]);
       },
